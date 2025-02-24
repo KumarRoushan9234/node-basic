@@ -2,7 +2,7 @@ import mongoose from "mongoose"
 
 // const connectDB = async ()=>{
 //   try{
-//     const mongourl = "mongodb+srv://roushan:roushan@user.ebtzrje.mongodb.net/?retryWrites=true&w=majority&appName=user"
+//     const mongourl = "<your_mongo_db_link>"
 //     const conn = await mongoose.connect(mongourl,{
 //       useUnifiedTopology: true,
 //     })
@@ -16,7 +16,7 @@ import mongoose from "mongoose"
 
 const connectDB = ()=>{
 
-  const mongourl = "mongodb+srv://roushan:roushan@user.ebtzrje.mongodb.net/?retryWrites=true&w=majority&appName=user"
+  const mongourl = "<your_mongo_db_link>"
 
   const conn = mongoose.connect(mongourl, {
     // useUnifiedTopology: true,
